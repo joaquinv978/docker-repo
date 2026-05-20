@@ -1,3 +1,3 @@
 FROM nginx:latest
-COPY . /home/ubuntu/docker-repo/index.html 
+COPY . /usr/share/nginx/html/index.html 
 EXPOSE 80
